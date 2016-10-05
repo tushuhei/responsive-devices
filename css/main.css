@@ -97,6 +97,17 @@ a.c1 {
   background: #fff;
   position: absolute;
   transition: all 0.5s ease;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.tablet #screen {
+  font-size: 12px;
+}
+
+.phone #screen {
+  font-size: 8px;
 }
 
 #stand {
@@ -751,4 +762,8 @@ a.c1 {
   height: 62px;
   left: 345px;
   top: 198px;
+}
+
+.ww {
+  display: inline-block;
 }

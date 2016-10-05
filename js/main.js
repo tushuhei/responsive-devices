@@ -7,9 +7,7 @@ var devicesArray = [
   'desktop',
   'laptop',
   'tablet',
-  'phone',
-  'watch',
-  'tv'
+  'phone'
 ];
 
 var switchDevice = function(deviceType) {
