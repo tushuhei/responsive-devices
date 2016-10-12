@@ -6,7 +6,7 @@ html, body {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  font-family: "Helvetica Neue", Arial, Sans;
+  font-family: Roboto, "Noto Sans CJK JP", sans-serif;
 }
 
 a {
@@ -95,12 +95,12 @@ a.c1 {
 
 #screen {
   background: #fff;
+  box-sizing: border-box;
   color: #444;
+  overflow: hidden;
+  padding: 5px 8px;
   position: absolute;
   transition: all 0.5s ease;
-  padding: 5px;
-  box-sizing: border-box;
-  overflow: hidden;
 }
 
 .tablet #screen {
